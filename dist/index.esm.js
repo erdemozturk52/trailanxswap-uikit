@@ -2843,9 +2843,9 @@ var templateObject_1$K;
 
 var baseColors = {
     failure: "#ED4B9E",
-    primary: "#f8d84d",
-    primaryBright: "#f8d84d",
-    primaryDark: "#f8d84d",
+    primary: "#2A62FF",
+    primaryBright: "#2A62FF",
+    primaryDark: "#2A62FF",
     secondary: "#7645D9",
     success: "#31D0AA",
     warning: "#FFB237",
@@ -2853,13 +2853,15 @@ var baseColors = {
 var brandColors = {
     binance: "#F0B90B",
 };
+
+
  
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "#13152E", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#0F1226EB", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "#80B2F1", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#3f65ce", input: "#2A62FF", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#0936b3", textSubtle: "#c7def9", borderColor: "#524B63", card: "#010873", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
-	
-	
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "#13152E", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#0F1226EB", gradients: {
+    
+    
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "#80B2F1", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#3f65ce", input: "#2A62FF", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#0936b3", textSubtle: "#c7def9", borderColor: "#524B63", card: "#010873", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 
